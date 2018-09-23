@@ -1,0 +1,52 @@
+round.c
+
+Declare round_to_int prototype
+
+Define round_to_int
+    Declare integer to store rounded value
+    Check if input is positive
+        If yes
+            Apply ceil() function, store value as rounded integer
+            Return rounded integer
+        If no
+            Convert to positive
+            Apply floor() function, store value as rounded integer
+            Convert back to negative
+            Return rounded integer
+            
+Create main function as driver
+    Prompt user for initial input, then store it
+    Begin while loop (broken when no more input flag detected "0")
+    Print rounded value (use round_to_int)
+    Prompt user for another input, or to exit
+    
+    
+cell.c
+
+Scan input file
+    Keep track of minute total
+        For jog: if seconds greater than 30, add minute to that entry
+    Keep track of seconds total
+    Calculate Jog cost
+    Calculate Holo cost
+        Add total minutes and seconds of calls
+            Convert seconds to minutes
+            Add those minutes to total minutes
+            Check if remaining seconds (that didn't convert) exist
+                If yes, add an extra minute to total
+    Print results
+    
+
+regress.c
+
+Print first part of matlab code line 1
+Scan data file
+    Print second part of matlab code line 1
+    Track total number of entries
+    Save first x input (to print later in matlab code)
+    Calculate summations needed in m and b formula
+    Save last x input (to print later in matlab code)
+Print last part of matlab code line 1
+Calculate m
+Calculate b
+Print rest of matlab code (using saved x inputs, m, and b)
