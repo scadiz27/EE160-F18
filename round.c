@@ -6,6 +6,12 @@
     members: Sean Flynn, Micah Tumpap
 */
 
+ /****************************************
+ * Needs to be compiled with g++ NOT gcc *
+ *                                       *
+ ****************************************/
+
+
 #include <stdio.h>
 #include <math.h>
 
