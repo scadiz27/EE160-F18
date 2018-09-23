@@ -71,4 +71,3 @@ int main(){
         ,holoCost, minTotH);
 }
 
-
