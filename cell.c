@@ -1,4 +1,4 @@
-/*  file:    minutes.c
+/*  file:    cell.c
     by:      Stephen Cadiz
     login:   scadiz27
     date:    9/22/18
