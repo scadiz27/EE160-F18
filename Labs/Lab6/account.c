@@ -26,7 +26,7 @@ int main(){
     scanf("%f %f %d %d", &accAmt, &intRate, &type, &years);
     
     //Check for errors in type
-    if(type!=1 || type !=2 || type !=3){
+    if(type!=1 && type !=2 && type !=3){
         printf("Invalid compounding type\n");
         return 0;
     }
@@ -58,7 +58,7 @@ int main(){
         scanf("%f %d %d", &intRate, &type, &years);
         
         //Check for invalid type
-        if(type!=1 || type !=2 || type !=3){
+        if(type!=1 && type !=2 && type !=3){
             printf("Invalid compounding type\n");
             return 0;
         }
