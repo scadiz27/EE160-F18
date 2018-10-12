@@ -7,7 +7,7 @@
 /*  A program to compare numbers*/
 
 #include <stdio.h>
-#define DEBUG
+//#define DEBUG
 
 int main(){
     
