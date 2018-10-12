@@ -10,7 +10,7 @@
 #include "exponent.h"  
 #include <stdio.h>
 
-#define DEBUG
+//#define DEBUG
 
 float pos_power(float base, int exponent){
     float answer=base;
