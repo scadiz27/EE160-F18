@@ -11,7 +11,7 @@
 #include "exponent.h"
 #include <stdio.h>
 
-#define DEBUG
+//#define DEBUG
 
 int main(){
     float base;
