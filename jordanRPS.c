@@ -1,7 +1,7 @@
+/* a program
+*/
 #include <stdio.h>
-#define DEBUG
-
-int main(){
+#include <stdlib.h>
     //Arrays to store wins[0], losses[1]
     int p1wld[1];
     int p2wld[1];
@@ -12,15 +12,19 @@ int main(){
     //Player input variables. 1=rock, 2=paper, 3=scissors
     int p1, p2;
 
-    //Initialize both arrays to all 0s
     int i;
+
+int main(){
+
+    //Initialize both arrays to all 0s
+    //int i;
     for(i=0;i<=1;i++){
         p1wld[i]=0;
         p2wld[i]=0;
     }
 
     //Loop until exit flag input (-1)
-    while(1){
+    while(1==1){
 
         printf("1=Rock, 2=Paper, 3=Scissors (-1 to exit).\n");
         
